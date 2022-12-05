@@ -1,0 +1,23 @@
+#blog .contenedor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* DEFINIMOS SEPARACION ENTRE CADA ARTICULO */
+#blog article{
+    margin: 15px;
+}
+
+/* AQUI DEFINIMOS EL TAMAÑO QUE TENDRAN LAS IMAGENES DEL BLOG */
+
+#blog img{
+    width: 100%;
+    max-width: 300px;
+    max-height: 300px;
+
+}
+
+#blog h3, h4{
+    text-align: center;
+}
